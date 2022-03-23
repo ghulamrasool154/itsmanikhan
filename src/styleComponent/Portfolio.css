@@ -1,0 +1,171 @@
+section.Portfolio .container-fluid {
+    padding: 100px 0;
+}
+.portfolio{
+    border : 1px solid #ccc;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.portfolio-title {
+    background: #F7F7F7;
+    padding: 25px 30px 30px 30px;
+}
+
+h1.portfolio-name {
+    font-size: 24px;
+    line-height: 30px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+.image-backside{
+    position: relative;
+}
+.portfolio-backside{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.portfolio:hover .image-backside{
+    overflow: hidden;
+}
+
+
+.portfolio .image-backside{
+
+    overflow: hidden;
+}
+
+.portfolio .image-backside img{
+    transition: all 0.5s;
+
+}
+.portfolio:hover .image-backside img{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+.portfolio:hover .portfolio-backside {
+    background: linear-gradient(45deg, #3060e5 0%, #048eea 45%, #3ee09f 100%);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.6;
+
+}
+
+.portfolio-circle{
+    min-width: 44px;
+    min-height: 44px;
+    border-radius: 100px;
+    margin: 10px 5px 10px;
+    background: #1f1c1c;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+button.loadMoreButton {
+    display: block;
+    margin: auto;
+    background: linear-gradient( 45deg, #3060e5 0%, #048eea 45%, #3ee09f 100%);
+    line-height: 28px;
+    width: 235px;
+    border: none;
+    height: 50px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    transition: opacity 10ms ease,color .2s ease;
+    font-size: 18px;
+    margin-top : 50px
+
+}
+
+button.startProject {
+    background: linear-gradient(45deg, #3060e5 0%, #048eea 45%, #3ee09f 100%);
+    display: block;
+    margin: auto;
+    text-transform: none;
+    border-radius: 0px;
+    border: 0px solid #3060e5;
+    padding: 14px 25px 14px 25px;
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+
+/* 
+.image_gallary_cover{
+    position: relative;
+} */
+
+.image_gallary_cover{
+     position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    height: 100vh;
+    /* height: 100%; */
+    /* opacity: 0.85; */
+    background-color: rgb(0 0 0 / 77%);
+    z-index: 9999999999;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.image_gallary{
+    /* width: 100%;
+    height: 100%; */
+    /* position: relative; */
+    /* overflow: scroll; */
+    /* position: absolute;
+    top: 0; */
+
+}
+.image_gallary_img {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 100vh;
+
+    
+}
+
+/* .image_gallary_img:hover{
+    height: 100vh;
+    width: 100%;
+
+} */
+/* .image_gallary_img:hover img{ */
+    /* transform: scale(1.2); */
+    /* height: 100%; */
+    /* overflow: hidden; */
+/* } */
+.closeimgbox {
+    position: fixed;
+    top: 30px;
+    right: 80px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,127 @@
+ /* .navbar-toggler-icon {
+ 
+    background-image: url(/public/images/menu.png) !important;
+    width: 35px !important;
+    height: 35px !important;
+} */
+.navbar-toggler {
+    padding: initial !important;
+    font-size: 20px !important;    
+    border-radius: 0;
+    width: 100%;
+}
+
+.navbarlist {
+    width: 300px;
+    background: white;
+    position: absolute;
+    right: 60px;
+    height: 100vh;
+    top: 0;
+    padding: 30px !important;
+}
+li.nav-item {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar-nav .nav-link{
+    color: black;
+    margin: 4px 0px 8px 0px;
+    padding: 8px 0px 4px 0px;
+}
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: overlay;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover{
+    color: #3060e5;
+    background: -webkit-linear-gradient(left, #3060e5 0%, #048eea 45%, #3ee09f 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+}
+
+
+/* a.nav-link.active
+.nav-link:focus, .nav-link:hover{
+    color: #3060e5;
+    background: -webkit-linear-gradient(left, #3060e5 0%, #048eea 45%, #3ee09f 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+
+} */
+
+.dt-close-mobile-menu-icon {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(45deg, #3060e5 0%, #048eea 45%, #3ee09f 100%);
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+.menu-for-disktop .section-navbar {
+    padding-top: 14px;
+}
+
+
+.navbaricontoggle{
+    cursor: pointer;
+}
+
+.navbaricontoggle span i {
+    font-size: 28px;
+    color: white;
+}
+
+.dt-close-mobile-menu-icon{
+    display: none;
+}
+.disktop{
+    display: none;
+}
+
+.menu-for-mobile .navbaricontoggle{
+    display: none;
+}
+@media screen  and (max-width : 500px){
+    .menu-for-disktop{
+        display: none;
+    }
+    .disktop,
+    .dt-close-mobile-menu-icon{
+        display: block !important;
+    }
+    .content{
+        width: calc(100% - 0px);
+    }
+    .main-nav{
+        align-items: flex-start;
+    }
+    div#navbarSupportedContent{
+        position: absolute;
+        top: 0px;
+        right: -90px;
+    }
+    .navbarlist {
+        height: 100vh;
+        overflow: scroll;
+    }
+    
+}
+
