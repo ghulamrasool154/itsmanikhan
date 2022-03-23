@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/itsmanikhan/static/css/main.3e38e751.css",
+    "main.js": "/itsmanikhan/static/js/main.6c9ba1fb.js",
+    "static/js/787.635b36d3.chunk.js": "/itsmanikhan/static/js/787.635b36d3.chunk.js",
+    "static/media/Source-Code-4733.mp4": "/itsmanikhan/static/media/Source-Code-4733.733e41a86724ba124249.mp4",
+    "static/media/6.jpg": "/itsmanikhan/static/media/6.c4efebe6465c1db9cdf9.jpg",
+    "static/media/2.jpg": "/itsmanikhan/static/media/2.437a225003efac642852.jpg",
+    "static/media/1.jpg": "/itsmanikhan/static/media/1.6f3d39efb3088c963091.jpg",
+    "static/media/5.jpg": "/itsmanikhan/static/media/5.c499334436ca2375669e.jpg",
+    "static/media/7.jpg": "/itsmanikhan/static/media/7.351af8fb5425a88283fd.jpg",
+    "static/media/9.jpg": "/itsmanikhan/static/media/9.fb0106f8ef55d5748a50.jpg",
+    "static/media/8.jpg": "/itsmanikhan/static/media/8.1d4f021f018e0db70165.jpg",
+    "static/media/benifit-image.jpg": "/itsmanikhan/static/media/benifit-image.402cbf7210098ae06464.jpg",
+    "static/media/3.jpg": "/itsmanikhan/static/media/3.190ea922de5a498eb6a4.jpg",
+    "static/media/4.jpg": "/itsmanikhan/static/media/4.b9c35b40ce8b40e604a2.jpg",
+    "static/media/testimonial.jpg": "/itsmanikhan/static/media/testimonial.7942a74a629bef0fbe3a.jpg",
+    "static/media/service-bg.jpg": "/itsmanikhan/static/media/service-bg.d35a72e695ec8f32f38a.jpg",
+    "index.html": "/itsmanikhan/index.html",
+    "main.3e38e751.css.map": "/itsmanikhan/static/css/main.3e38e751.css.map",
+    "main.6c9ba1fb.js.map": "/itsmanikhan/static/js/main.6c9ba1fb.js.map",
+    "787.635b36d3.chunk.js.map": "/itsmanikhan/static/js/787.635b36d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e38e751.css",
+    "static/js/main.6c9ba1fb.js"
+  ]
+}
